@@ -8,7 +8,9 @@ from tqdm import tqdm
 import torch
 from transformers import AutoProcessor, AutoModelForCausalLM
 from transformers.generation.utils import GenerationMixin
+import sys
 
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import library.train_util as train_util
 
 

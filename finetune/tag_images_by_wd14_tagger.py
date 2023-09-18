@@ -11,7 +11,9 @@ from tensorflow.keras.models import load_model
 from huggingface_hub import hf_hub_download
 import torch
 from pathlib import Path
+import sys
 
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import library.train_util as train_util
 
 # from wd14 tagger

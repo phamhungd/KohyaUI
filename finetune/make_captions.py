@@ -12,6 +12,9 @@ import numpy as np
 import torch
 from torchvision import transforms
 from torchvision.transforms.functional import InterpolationMode
+import sys
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append(os.path.dirname(__file__))
 from blip.blip import blip_decoder
 import library.train_util as train_util
