@@ -1,4 +1,4 @@
-torch==2.1.2+cu118 torchvision==0.16.2+cu118 xformers==0.0.23.post1+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.1.0 torchvision torchaudio xformers torchtext --index-url https://download.pytorch.org/whl/cu121
 bitsandbytes==0.41.3.post2
 onnxruntime-gpu==1.17.1
 -r requirements.txt
